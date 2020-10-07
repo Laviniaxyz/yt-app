@@ -13,7 +13,7 @@ function SearchBar({ onFormSubmit }) {
     <div className="search-bar ui segment">
       <form onSubmit={handleSubmit} className="ui form">
         <div className="field">
-          <label>Video for a video</label>
+          <label>Video search</label>
           <input
             onChange={(e) => setTerm(e.target.value)}
             value={term}
